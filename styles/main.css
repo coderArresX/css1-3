@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/JetBrainsMono-VariableFont_wght\ copy.ttf);
+}
+
+h1 {
+    color: #000000;
+    font-family: Lato;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 48px;
+}
+
+#header-intro {
+    max-width: 1220px;
+    color: #FF8000;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 32px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+
+#firstContainer-content {
+    color: #6D81B4;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 30px;
+    max-width: 681px;
+    max-height: 217px;
+    margin-left: 7.5px;
+}
+
+#firstContainer {
+    margin-left: 67px;
+    margin-top: 63px;
+    margin-bottom: 101px;
+    max-width: 696px;
+    max-height: 662px;
+}
+
+#bang-theory {
+    color: #D9AE00;
+    font-family: Lato;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+#bigBang {
+    max-width: 696px;
+    max-height: 415px;
+}
+
+#seccondContainer {
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-right: 3px solid #F00;
+    border-bottom: 3px solid #F00;
+    background-color: #FFCEBE;
+    padding: 64px;
+    max-width: 1007px;
+    max-height: 717px;
+    margin-left: 74px;
+    margin-bottom: 101px;
+}
+
+#blackHoleHeader {
+    color: #F44E50;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#seccondContainer-content {
+    color: #8B2B2C;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+#Blackhole {
+    width: 879px;
+    height: 415px;
+}
+
+#thirdContainer {
+    margin-left: 74px;
+    max-width: 696px;
+    max-height: 1041px;
+    width: 696px;
+    height: 1041px;
+}
+
+#string-header {
+    color: #4716E4;
+    text-align: right;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#thirdContainer-content {
+    color: #616161;
+    text-align: right;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 3px solid #FF5DA3;
+    background: #FFC1E3;
+    padding: 24px;
+}
+
+#kayPoints {
+    width: 696px;
+    height: 272px;
+    margin: 30px 0;
+}
+
+h3 {
+    color: #414651;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+#BlackDot {
+    border-radius: 16px;
+    background-color: #000000;
+    margin: auto 0px;
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#firstList {
+    display: inline-block;
+    vertical-align: middle;
+    color: #C27512;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 650px;
+    height: 72px;
+}
+
+#black-dot {
+    border-radius: 16px;
+    background-color: #000000;
+    margin: auto 0px;
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#secconBullet {
+    display: inline-block;
+    vertical-align: middle;
+    color: #C27512;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 650px;
+    height: 72px;
+}
+
+#blackdot {
+    border-radius: 16px;
+    background-color: #000000;
+    margin: auto 0px;
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#thirdBullet {
+    display: inline-block;
+    vertical-align: middle;
+    color: #C27512;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 650px;
+    height: 72px;
+}
+
+#firstUl {
+    width: 696px;
+    height: 72px;
+    margin-top: 8px;
+}
+
+#seccondUl {
+    width: 696px;
+    height: 72px;
+    margin-top: 8px;
+}
+
+#thirdUl {
+    width: 696px;
+    height: 72px;
+    margin-top: 8px;
+}
+
+#strings {
+    width: 696px;
+    height: 415px;
+}
