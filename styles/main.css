@@ -112,15 +112,15 @@ h1 {
     margin-left: 74px;
     max-width: 696px;
     max-height: 1041px;
-    width: 696px;
-    height: 1041px;
+    width: 100%;
+    height: 100%;
 }
 
 #string-header {
     color: #4716E4;
     text-align: right;
-    font-family: Lato;
     font-size: 40px;
+    line-height: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -131,7 +131,7 @@ h1 {
 #thirdContainer-content {
     color: #616161;
     text-align: right;
-    font-family: Lato;
+    /* font-family: Lato; */
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -139,10 +139,12 @@ h1 {
     border: 3px solid #FF5DA3;
     background: #FFC1E3;
     padding: 24px;
+    margin-top: 24px;
 }
 
 #kayPoints {
-    width: 696px;
+    max-width: 696px;
+    width: 100%;
     height: 272px;
     margin: 30px 0;
 }
@@ -171,12 +173,12 @@ h3 {
     display: inline-block;
     vertical-align: middle;
     color: #C27512;
-    font-family: Lato;
+    /* font-family: Lato; */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    width: 650px;
+    width: 655px;
     height: 72px;
 }
 
@@ -193,13 +195,14 @@ h3 {
     display: inline-block;
     vertical-align: middle;
     color: #C27512;
-    font-family: Lato;
+    /* font-family: Lato; */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    width: 650px;
+    width: 655px;
     height: 72px;
+    margin-top: 8px;
 }
 
 #blackdot {
@@ -215,17 +218,18 @@ h3 {
     display: inline-block;
     vertical-align: middle;
     color: #C27512;
-    font-family: Lato;
+    /* font-family: Lato; */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    width: 650px;
+    width: 655px;
     height: 72px;
 }
 
 #firstUl {
-    width: 696px;
+    max-width: 696px;
+    width: 100%;
     height: 72px;
     margin-top: 8px;
 }
